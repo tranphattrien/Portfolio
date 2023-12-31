@@ -12,22 +12,19 @@ const About = () => {
     >
       <SectionHeading>About me</SectionHeading>
       <p className="mb-3">
-        I graduated with a degree in{" "}
-        <span className="font-medium">Software Engineering</span>and decided to
-        pursue my passion for{" "}
-        <span className="font-medium">front-end web development</span>.{" "}
-        <span className="italic">My favorite part of programming</span> is the
-        problem-solving aspect. I <span className="underline">love</span> the
-        feeling of finally figuring out a solution to a problem. My core stack
-        is I am always looking to learn new technologies. I am currently looking
-        for a <span className="font-medium">full-time position</span> as a
-        front-end developer.
+        Currently, I have completed my university studies with a degree in{" "}
+        <span className="font-medium">Software Engineering</span> and am waiting
+        to graduate. My passion is to become a{" "}
+        <span className="font-medium">front-end web developer</span>. , and I am
+        always looking for opportunities to learn and apply my skills. I am
+        currently looking for a{" "}
+        <span className="font-medium">full-time position</span> as a{" "}
+        <span className="font-medium">Fresher Front - End Developer</span>.
       </p>
 
       <p>
-        <span className="italic">When I'm not coding</span>, I enjoy watching
-        movies, and reading book. I also enjoy{" "}
-        <span className="font-medium">learning new things</span>.
+        <span className="italic">When I am not coding</span>, I enjoy watching
+        movies, reading books, and learning new things.
       </p>
     </motion.section>
   );
