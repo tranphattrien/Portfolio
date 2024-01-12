@@ -4,6 +4,8 @@ import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
 import corpcommentImg from "@/public/corpcomment.png";
 import agristoreImg from "@/assets/images/agri_store.jpg";
+import recipeAppImg from "@/assets/images/recipe-app.png";
+import todoAppImg from "@/assets/images/todoApp.png";
 
 export const links = [
   {
@@ -47,7 +49,7 @@ export const projectsData = [
     description:
       "The Todo App project was built with Reactjs and local storage for data storage. The app allows users to create and manage their to-do lists, which are saved on their web browser using local storage. The main features of the app include creating, modifying, and deleting tasks.",
     tags: ["React"],
-    imageUrl: corpcommentImg,
+    imageUrl: todoAppImg,
     source: "https://github.com/tranphattrien/Todo_App",
     live: "https://todo-app-tranphattrien.netlify.app"
   },
@@ -56,7 +58,7 @@ export const projectsData = [
     description:
       "Recipe App is a vanilla JavaScript application that interacts with the Forkify API to fetch and display recipe food data. The user can search for a specific recipe and save it to a favorites list via local storage. The user can easily increase or decrease servings as needed and can view detailed directions.",
     tags: ["HTML", "CSS", "SCSS", "Javascript"],
-    imageUrl: corpcommentImg,
+    imageUrl: recipeAppImg,
     source: "https://github.com/tranphattrien/Recipe_App",
     live: "https://recipe-app-tranphattrien.netlify.app"
   }
