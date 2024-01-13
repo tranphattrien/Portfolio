@@ -75,3 +75,21 @@ export const skillsData = [
   "MVC",
   "Figma"
 ] as const;
+
+export const experiencesData = [
+  {
+    title: "Software Engineering",
+    location: "Can Tho University",
+    description:
+      "I completed my studies and graduated with a major in software engineering.",
+    icon: React.createElement(LuGraduationCap),
+    date: "August 2019 - Graduated, January 2024"
+  },
+  {
+    title: "Software Engineer Intern",
+    location: "Sensor Notes",
+    description: "",
+    icon: React.createElement(CgWorkAlt),
+    date: "May 2023 - July 2023"
+  }
+] as const;
