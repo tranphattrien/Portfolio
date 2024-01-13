@@ -63,3 +63,15 @@ export const projectsData = [
     live: "https://recipe-app-tranphattrien.netlify.app"
   }
 ] as const;
+
+export const skillsData = [
+  "HTML",
+  "CSS",
+  "Javascript",
+  "ReactJS",
+  "NextJS",
+  "Git",
+  "OOP",
+  "MVC",
+  "Figma"
+] as const;
