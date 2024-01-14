@@ -88,7 +88,16 @@ export const experiencesData = [
   {
     title: "Software Engineer Intern",
     location: "Sensor Notes",
-    description: "",
+    description: {
+      hasList: true,
+      content: [
+        "Learn about Unity and understand the development process from ideation to implementation of 3D games.",
+        "Use C# to create and handle events, increasing interactivity in the game.",
+        "Create creative game interfaces with the flexible use of Photoshop and Figma.",
+        "Connect to the server and process data efficiently using C#.",
+        "Focus on optimizing the source code to ensure the product operates smoothly and efficiently."
+      ]
+    },
     icon: React.createElement(CgWorkAlt),
     date: "May 2023 - July 2023"
   }
