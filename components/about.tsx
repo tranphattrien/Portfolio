@@ -26,11 +26,6 @@ const About = () => {
         <span className="font-medium">full-time position</span> as a{" "}
         <span className="font-medium">Fresher Front - End Developer</span>.
       </p>
-
-      <p>
-        <span className="italic">When I am not coding</span>, I enjoy watching
-        movies, reading books, and learning new things.
-      </p>
     </motion.section>
   );
 };
