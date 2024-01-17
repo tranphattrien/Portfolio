@@ -36,19 +36,6 @@ const Intro = () => {
               className="h-28 w-28 object-cover rounded-full border-[0.35rem] border-white shadow-xl"
             />
           </motion.div>
-          <motion.span
-            className="text-4xl bottom-0 right-0 absolute"
-            initial={{ opacity: 0, scale: 0 }}
-            animate={{ opacity: 1, scale: 1 }}
-            transition={{
-              type: "spring",
-              stiffness: 125,
-              delay: 0.1,
-              duration: 0.5
-            }}
-          >
-            👋
-          </motion.span>
         </div>
       </div>
       <motion.h1
@@ -83,7 +70,7 @@ const Intro = () => {
         </Link>
 
         <a
-          className="bg-white px-7 py-3 flex items-center gap-2 rounded-full outline-none hover:scale-110 active:scale-100 transition cursor-pointer borderBlack"
+          className="bg-white px-7 py-3 flex items-center gap-2 rounded-full outline-none hover:scale-110 active:scale-100 transition cursor-pointer borderBlack dark:bg-white/10"
           href="CV_Tran_Phat_Trien.pdf"
           download={true}
         >
@@ -93,7 +80,7 @@ const Intro = () => {
         <a
           href="https://www.linkedin.com/in/tranphattrien"
           target="_blank"
-          className="bg-white p-4 text-gray-700 flex items-center gap-2 rounded-full hover:scale-[1.15] hover:text-gray-950 active:scale-100 transition cursor-pointer borderBlack"
+          className="bg-white p-4 text-gray-700 flex items-center gap-2 rounded-full hover:scale-[1.15] hover:text-gray-950 active:scale-100 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/70"
         >
           <BsLinkedin />
         </a>
@@ -101,7 +88,7 @@ const Intro = () => {
         <a
           href="https://github.com/tranphattrien"
           target="_blank"
-          className="bg-white p-4 text-gray-700 flex items-center gap-2 rounded-full hover:scale-[1.15] hover:text-gray-950 active:scale-100 transition cursor-pointer borderBlack"
+          className="bg-white p-4 text-gray-700 flex items-center gap-2 rounded-full hover:scale-[1.15] hover:text-gray-950 active:scale-100 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/70"
         >
           <FaGithubSquare />
         </a>
