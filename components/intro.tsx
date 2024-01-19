@@ -71,7 +71,7 @@ const Intro = () => {
 
         <a
           className="bg-white px-7 py-3 flex items-center gap-2 rounded-full outline-none hover:scale-110 active:scale-100 transition cursor-pointer borderBlack dark:bg-white/10"
-          href="CV_Tran_Phat_Trien.pdf"
+          href="lCV - Tran Phat Trien - Fresher Front End Developer.pdf"
           download={true}
         >
           Dowload CV <HiDownload className="opacity-60 transition" />
