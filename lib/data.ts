@@ -87,6 +87,21 @@ export const experiencesData = [
     date: "August 2019 - Graduated, January 2024"
   },
   {
+    title: "Web Developer Intern",
+    location: "IVS JSC",
+    description: {
+      hasList: true,
+      content: [
+        "Participated in the website development process.",
+        "Assisted in designing and implementing new features.",
+        "Involved in product development and deployment processes.",
+        "Used Selenium to test the website interface."
+      ]
+    },
+    icon: React.createElement(CgWorkAlt),
+    date: "April 2024 - June 2024"
+  },
+  {
     title: "Software Engineer Intern",
     location: "Sensor Notes",
     description: {

@@ -44,7 +44,7 @@ const Intro = () => {
         animate={{ opacity: 1, y: 0 }}
       >
         <span className="font-bold">Hello, I&apos;m Tran Phat Trien.</span>{" "}
-        I&apos;m a <span className="font-bold">front-end developer</span>, and
+        I&apos;m a <span className="font-bold">web developer</span>, and
         I&apos;m always challenging myself to improve my skills and learn new
         technologies.
       </motion.h1>
@@ -71,7 +71,7 @@ const Intro = () => {
 
         <a
           className="bg-white px-7 py-3 flex items-center gap-2 rounded-full outline-none hover:scale-110 active:scale-100 transition cursor-pointer borderBlack dark:bg-white/10"
-          href="CV - Tran Phat Trien - Fresher Front End Developer.pdf"
+          href="CV_Tran Phat Trien _ Fresher Web Developer.pdf"
           download={true}
         >
           Dowload CV <HiDownload className="opacity-60 transition" />
