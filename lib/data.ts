@@ -71,6 +71,8 @@ export const skillsData = [
   "Javascript",
   "ReactJS",
   "NextJS",
+  "Node.js",
+  "Express.js",
   "Tailwind CSS",
   "Git",
   "Knowledge of OOP and MVC",

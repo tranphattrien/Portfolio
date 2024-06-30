@@ -19,11 +19,11 @@ const About = () => {
       <p className="mb-3">
         Currently, I have graduated with a degree{" "}
         <span className="font-medium">Software Engineering</span>. My passion is
-        to become a <span className="font-medium">front-end web developer</span>
-        , and I am always looking for opportunities to learn and apply my
-        skills. I am currently looking for a{" "}
+        to become a <span className="font-medium">web developer</span>, and I am
+        always looking for opportunities to learn and apply my skills. I am
+        currently looking for a{" "}
         <span className="font-medium">full-time position</span> as a{" "}
-        <span className="font-medium">Fresher Front - End Developer</span>.
+        <span className="font-medium">Fresher Web Developer</span>.
       </p>
     </motion.section>
   );
